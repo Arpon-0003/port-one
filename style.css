@@ -1,0 +1,345 @@
+*{margin:0 auto; padding:0;}
+body{background:url("img/bg.png") repeat fixed 0 0 #fff;}
+
+.template{background-color:green; margin:0 auto; padding:0; width:1100px;}
+.header{height:50px; width:1100px; background-color:#E8F0F2; color:#515659;}
+.email{float:left; width:400px;}
+.footer-social a {
+  padding-right: 25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-social i {
+  color: #cccccc;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.email h5{    font-size: 18px;
+		color: #27292A;
+		padding-left: 40px;
+		padding-top: 12px;}
+		
+.name{width:300px; float:left;}		
+		
+.name p{    font-size: 20px;
+		
+		padding-top: 12px; }
+
+.social img{      float: right;
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 11px;
+}
+.social a i{color:red; background-color:green;}
+.navigation{height:80px; width:1100px; background-color:#fff;}
+
+.navlogo{float:left; width:400px; height:80px;}
+.navlogo img{   height: 50px;
+			padding-top: 13px;
+			padding-left: 35px;
+		
+		}
+
+.navmenu{width:700px; position:fixed; float:right; height:80px; font-family:Century Gothic; font-size:15px;}
+.navmenu ul{float:right; list-style-type:none; padding-top:26px; padding-right:20px;}
+.navmenu ul li{display:inline-block;}
+.navmenu ul li a{    text-decoration: none;
+    color: black;
+    padding: 0px 5px;
+    
+    
+    padding-left: 40px;}
+.navmenu ul li a:hover{transition:1s; color:red;}
+.navmenu ul li.active a{color:red;}
+.container{height:500px; width:1100px; background-color:#E8F0F2;}
+.containertext{float:left; height:500px; width:500px;}
+.containerlogo{float:right; width:600px; height:500px;}
+.containertext h1{    color:red;
+		font-size: 45px;
+		padding-left: 100px;
+		padding-top: 80px;}
+.containertext p{    color: black;
+			padding-left: 105px;
+			padding-top: 40px;
+			font-size: 20px;
+			text-align: justify;}
+.containerlogo img{    height: 400px;
+		width: 400px;
+		padding-top: 50px;
+		padding-left: 130px;
+		}	
+
+.button{ position: absolute;
+    padding-top: 60px;
+    padding-left: 108px;}
+.btn{    border: 3px solid white;
+    padding: 15px 20px;
+    color: #6B3333;
+    text-decoration: none;
+    background-color: white;
+    font-size: 20px;}
+.btn:hover{color:white; background-color:#662b68;}
+.dealsimg{width:1100px; height:310px;}
+.deal1{width:550px; height:400px; float:left; }
+.deal2{width:550px; height:400px; float:right; }
+.deal1 img{    height: 229px;
+    width: 480px;
+    padding-top: 40px;
+    padding-left: 32px;}
+.deal2 img{    height: 229px;
+    width: 480px;
+    padding-top: 40px;
+    padding-left: 40px;}
+#product{width:1100px; height:700px;}
+.producttitle{width:1100px; height:200px;}
+.producttitle h1{    color: #050000;
+					padding-left: 400px;
+					font-size: 40px;
+					font-family:Century Gothic;
+					}
+.producttitle p{    color: red;
+			font-size: 20px;
+			padding-left: 360px;
+			padding-top: 15px;}
+.productimage{width:1100px; height:320px; }
+.productimage1 img{    height: 250px;
+			width: 240px;
+			padding-left: 29px;
+			float: left;
+			padding-top: 55px;}
+.productname{width:1100px; height:35px; }
+.price h4{ color: black;
+			float: left;
+			padding-left: 72px;
+			font-size: 20px;
+			padding-top: 2px;
+			padding-right: 30px;}
+.priceamount{width:1100px; height:145px; }
+.priceamount p{    color: red;
+		float: left;
+		font-size: 25px;
+		padding: 0px 96px;}
+#exclusive{width:1100px; height:500px; background-color:#E4ECEE;}
+.exclusivename{width:1100px; height:280px;}
+.exclusiveimage{width:1100px; height:220px;}
+.exclusivename h1{        color: black;
+				padding-left: 290px;
+				padding-top: 70px;
+				font-size: 42px;
+				font-family:Century Gothic;	
+					}
+.exclusivename p{    color: #d71d1d;
+		font-size: 18px;
+		padding-left: 375px;
+		padding-top: 10px;
+				}
+
+
+			
+				
+				
+				
+				
+				
+				
+.exclusivename img{    height: 45px;
+			width: 110px;
+			padding-left: 507px;
+			padding-top: 30px;}
+.exclusiveimage img{       height: 115px;
+				width: 580px;
+				padding-left: 288px;}
+
+#latestproducts{width:1100px; height:950px;}
+.latesttitle{width:1100px; height:150px; }
+.latesttitle h1{    color: black;
+				font-size: 45px;
+				padding-left: 400px;
+				padding-top: 25px;
+				font-family:Century Gothic;
+				}
+.latesttitle p{    color:red;
+			padding-left: 363px;
+			font-size: 18px;
+			padding-top: 10px;}
+.latestimage1{width:1100px; height:270px;}
+.latestimage1 img{       height: 240px;
+    width: 225px;
+    padding-left: 33px;
+    float: left;
+    padding-top: 15px;}
+		
+.latestimagename1{width:1100px; height:32px;}
+.latestimagename1 p{    color:black;
+		float: left;
+		font-size: 20px;
+		padding: 0px 60px;
+		padding-top: 5px;}
+.latestimageprice{width:1100px; height:40px;}
+.latestimageprice p{color: red;
+		float: left;
+		font-size: 25px;
+		padding: 0px 96px;}
+		
+.latestimage2{width:1100px; height:300px; }		
+.latestimage2 img{    height: 240px;
+    width: 225px;
+    padding-left: 33px;
+    float: left;
+    padding-top: 15px;}		
+		
+.topbrand{width:1100px; height:350px; background-color:#E4ECEE;}		
+.topbrandheader{width:1100px; height:200px; }		
+.topbrandheader h1{    color: black;
+    padding-top: 50px;
+    padding-left: 365px;
+    font-size: 40px;
+	font-family:Century Gothic;
+	}		
+.topbrandheader p{    color:red;
+    padding-left: 431px;
+    padding-top: 15px;
+    font-size: 16px;}
+.topbrandimage{width:1100px; height:150px; }	
+.topbrandimage img{    height: 80px;
+			width: 160px;
+			float: left;
+			padding: 5px 30px;
+			}		
+		
+#searchproduct{width:1100px; height:700px;}		
+.searchname{width:1100px; height:200px; }	
+.searchname h1{    color: black;
+		font-size: 40px;
+		padding-left: 345px;
+		padding-top: 70px;
+		font-family:Century Gothic;
+		}
+.searchname p{    color: red;
+    padding-left: 380px;
+    padding-top: 10px;
+    font-size: 17px;}
+.searchimage{width:1100px; height:400px; }	
+.searchimage1{height:400px; width:125px; float:left;}	
+.searchimage1 img{    height: 80px;
+    width: 80px;
+    padding-top: 15px;
+    padding-left: 23px;}
+.searchimagename1{height:400px; width:150px;float:left;}	
+.searchimagename1 h5{       color: black;
+			padding: 32px 5px;
+			font-size: 15px;
+					}	
+.footer{width:1100px; height:600px; background-color:#E4ECEE;}
+.footerheader{width:1100px; height:450px; }	
+.copyrights{width:1100px; height:150px;}	
+.copyrights p{    color: black;
+			padding-left: 290px;
+			padding-top: 90px;
+			font-size: 18px;}
+
+.copyrights span{color:red;}			
+.aboutus{height:450px; width:275px;  float:left;}
+.newsletter{height:450px; width:275px;  float:left;}
+.instragramfeed{height:450px; width:275px;  float:left;}
+.followus{height:450px; width:275px; float:left;}
+.aboutus h1{    color: black;
+				padding-top: 100px;
+				padding-left: 30px;}
+.aboutus p{    color:#262829;
+			padding: 35px 28px;
+			text-align: ;
+			font-size: 19px;
+			text-align:justify;
+			}
+.newsletter h1{    color: black;
+			padding-top: 100px;
+			padding-left: 10px;}
+.newsletter p{    color: #262829;
+			padding-left: 10px;
+			padding-top: 34px;
+			font-size: 15px;}
+
+.instragramfeed h1{    color: black;
+				padding-top: 100px;
+				padding-left: 10px;}
+.followus h1{color: #262829;
+					padding-left: 30px;
+					padding-top: 100px;}
+
+.instragramfeed img{    width: 75px;
+			height: 63px;
+			padding-top: 39px;
+			padding-left: 10px;}
+.followus p{    padding-left: 30px;
+    padding-top: 33px;
+    font-size: 17px;
+		}
+
+.followus img{        float: left;
+			height: 25px;
+			width: 25px;
+			padding-left: 29px;
+			padding-top: 30px;}
+
+
+
+			
+			
+			
+			.buttonname{    position: absolute;
+    padding-top: 50px;
+    padding-left: 510px;
+}
+	
+.btn1{    border: 2px solid #000;
+    padding: 15px 20px;
+    color: #F00;
+    text-decoration: none;
+    background-color: #b6e8f5;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.btn1:hover{color:white; background-color:#ff7a0a;}
+
+.fixedicon{position:fixed; left:0; top:150px; width:50px; height:200px;}
+.fixedicon img{float:left; width:45px; height:40px; padding:5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
